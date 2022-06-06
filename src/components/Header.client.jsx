@@ -9,7 +9,7 @@ import MobileNavigation from './MobileNavigation.client';
 /**
  * A client component that specifies the content of the header on the website
  */
-export default function Header({collections, storeName}) {
+export default function Header({storeName}) {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
   const [scrollbarWidth, setScrollbarWidth] = useState(0);
   const {isCartOpen} = useCartUI();
@@ -35,9 +35,8 @@ export default function Header({collections, storeName}) {
           }}
         >
           <div className="text-center w-full flex justify-between items-center">
-            <Navigation collections={collections} storeName={storeName} />
+            <Navigation storeName={storeName} />
             <MobileNavigation
-              collections={collections}
               isOpen={isMobileNavOpen}
               setIsOpen={setIsMobileNavOpen}
             />

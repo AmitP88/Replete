@@ -9,25 +9,29 @@ import {
 import gql from 'graphql-tag';
 
 import Layout from '../components/Layout.server';
+/*
 import FeaturedCollection from '../components/FeaturedCollection';
 import ProductCard from '../components/ProductCard';
+*/
 import Welcome from '../components/Welcome.server';
 import {Suspense} from 'react';
 
-export default function Index({country = {isoCode: 'US'}}) {
+export default function Index() {
   return (
-    <Layout hero={<GradientBackground />}>
+    <Layout>
       <Suspense fallback={null}>
         <SeoForHomepage />
       </Suspense>
       <div className="relative mb-12">
         <Welcome />
-        <Suspense fallback={<BoxFallback />}>
-          <FeaturedProductsBox country={country} />
-        </Suspense>
-        <Suspense fallback={<BoxFallback />}>
-          <FeaturedCollectionBox country={country} />
-        </Suspense>
+        {/**
+          <Suspense fallback={<BoxFallback />}>
+            <FeaturedProductsBox country={country} />
+          </Suspense>
+          <Suspense fallback={<BoxFallback />}>
+            <FeaturedCollectionBox country={country} />
+          </Suspense>        
+        */}
       </div>
     </Layout>
   );
@@ -55,6 +59,7 @@ function SeoForHomepage() {
   );
 }
 
+/*
 function BoxFallback() {
   return <div className="bg-white p-12 shadow-xl rounded-xl mb-10 h-40"></div>;
 }
@@ -188,6 +193,8 @@ function GradientBackground() {
     </div>
   );
 }
+
+*/
 
 const SEO_QUERY = gql`
   query homeShopInfo {
