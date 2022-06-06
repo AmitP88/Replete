@@ -48,8 +48,8 @@ export default function Layout({children, hero}) {
           <Cart />
         </Suspense>
         <main role="main" id="mainContent" className="relative bg-gray-50">
-          {hero}
-          <div className="mx-auto max-w-7xl p-4 md:py-5 md:px-8">
+          {/* hero */}
+          <div className="mx-auto max-w-full p-0">
             <Suspense fallback={null}>{children}</Suspense>
           </div>
         </main>

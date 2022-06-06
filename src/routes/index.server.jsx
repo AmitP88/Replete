@@ -22,7 +22,7 @@ export default function Index() {
       <Suspense fallback={null}>
         <SeoForHomepage />
       </Suspense>
-      <div className="relative mb-12">
+      <div className="relative">
         <Welcome />
         {/**
           <Suspense fallback={<BoxFallback />}>
