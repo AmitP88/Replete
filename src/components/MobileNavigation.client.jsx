@@ -35,20 +35,22 @@ export default function MobileNavigation({collections, isOpen, setIsOpen}) {
         </button>
         {isOpen ? (
           <div className="fixed -left-0 top-20 w-full h-screen z-10 bg-gray-50 px-4 md:px-12 py-7">
-            <ul>
-              {collections.map((collection) => (
-                <li className="border-b border-gray-200" key={collection.id}>
-                  <Link
-                    className="group py-5 text-gray-700 flex items-center justify-between"
-                    to={`/collections/${collection.handle}`}
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {collection.title}
-                    <ArrowRightIcon className="hidden group-hover:block" />
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            {/**
+              <ul>
+                {collections.map((collection) => (
+                  <li className="border-b border-gray-200" key={collection.id}>
+                    <Link
+                      className="group py-5 text-gray-700 flex items-center justify-between"
+                      to={`/collections/${collection.handle}`}
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {collection.title}
+                      <ArrowRightIcon className="hidden group-hover:block" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>          
+            */}
           </div>
         ) : null}
       </OpenFocusTrap>

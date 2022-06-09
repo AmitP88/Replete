@@ -35,7 +35,7 @@ function Hero() {
 */
 export default function Welcome() {
   return (
-    <div className="Welcome">
+    <div className="Welcome h-screen">
       <Suspense>
         <Hero />
         <Highlights />
