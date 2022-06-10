@@ -38,7 +38,9 @@ export default function Highlights() {
             />
           </div>
           <div className="learn__more text-center my-10">
-            <h2 className="text-black font-bold text-2xl pb-4">Asus Headphone</h2>
+            <h2 className="text-black font-bold text-2xl pb-4">
+              Asus Headphone
+            </h2>
             <a href='#'>
               <p className="text-blue-700 font-light">Learn more</p>
             </a>
@@ -67,7 +69,9 @@ export default function Highlights() {
             />
           </div>
           <div className="learn__more text-center my-10">
-            <h2 className="text-black font-bold text-2xl pb-4">Asus Headphone</h2>
+            <h2 className="text-black font-bold text-2xl pb-4">
+              Asus Headphone
+            </h2>
             <a href='#'>
               <p className="text-blue-700 font-light">Learn more</p>
             </a>
