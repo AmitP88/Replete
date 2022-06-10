@@ -66,3 +66,11 @@ model-viewer::part(default-progress-bar) {
     background-position: 97% 0%;
   }
 }
+
+.Highlights__tiles-tile-content {
+  padding: 2rem;  
+}
+
+.Highlights__tiles-tile-content > .image {
+  width: auto;
+}
