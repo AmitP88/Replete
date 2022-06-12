@@ -9,19 +9,19 @@ export default function Highlights() {
       <h1 className="text-black text-center text-3xl sm:text-4xl w-10/12 sm:w-full font-bold m-auto mb-5">
         This Weeks Highlights
       </h1>
-      <p className="m-auto w-9/12 md:w-[525px] text-black text-center mb-16">
+      <p className="m-auto w-9/12 lg:w-[525px] text-black text-left lg:text-center mb-16">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation.
       </p>
-      <div className="Highlights__tiles flex justify-center w-5/6 m-auto">
-        <div className="Highlights__tiles-tile w-1/2 m-4">
-          <div className="Highlights__tiles-tile-content flex bg-[#f0d5ef] w-full">
-            <div className="text-content w-2/4 pl-6">
-              <h2 className="super-heading text-2xl text-black mt-12">
+      <div className="Highlights__tiles lg:flex justify-center w-5/6 m-auto">
+        <div className="Highlights__tiles-tile lg:w-1/2 lg:m-4">
+          <div className="Highlights__tiles-tile-content xl:flex bg-[#f0d5ef] w-full">
+            <div className="text-content lg:w-2/4 lg:pl-6 mb-10 lg:mb-0">
+              <h2 className="super-heading text-black xl:text-xl 2xl:text-2xl xl:mt-12">
                 Headphone
               </h2>
-              <h1 className="heading text-black font-bold text-6xl my-4">
+              <h1 className="heading text-black font-bold text-4xl xl:text-4xl 2xl:text-6xl my-4">
                 Music
               </h1>
               <a href="#">
@@ -34,7 +34,7 @@ export default function Highlights() {
               src={music_headphones}
               width={100}
               height={100}
-              className="image"
+              className="image w-auto m-auto lg:w-auto lg:h-52 xl:h-auto xl:ml-auto xl:mr-0"
             />
           </div>
           <div className="learn__more text-center my-10">
@@ -46,13 +46,13 @@ export default function Highlights() {
             </a>
           </div>
         </div>
-        <div className="Highlights__tiles-tile w-1/2 m-4">
-          <div className="Highlights__tiles-tile-content flex bg-[#dff7f6] w-full">
-            <div className="text-content w-2/4 pl-6">
-              <h2 className="super-heading text-2xl text-black mt-12">
+        <div className="Highlights__tiles-tile lg:w-1/2 lg:m-4">
+          <div className="Highlights__tiles-tile-content xl:flex bg-[#dff7f6] w-full">
+            <div className="text-content lg:w-2/4 lg:pl-6 mb-10 lg:mb-0">
+              <h2 className="super-heading xl:text-xl 2xl:text-2xl text-black xl:mt-12 lg:w-max">
                 Up to 35% OFF
               </h2>
-              <h1 className="heading text-black font-bold text-6xl my-4">
+              <h1 className="heading text-black font-bold text-4xl xl:text-4xl 2xl:text-6xl my-4">
                 Headphone
               </h1>
               <a href="#">
@@ -65,7 +65,7 @@ export default function Highlights() {
               src={headphone_headphones}
               width={100}
               height={100}
-              className="image"
+              className="image w-auto m-auto lg:w-auto lg:h-52 xl:h-auto xl:ml-auto xl:mr-0"
             />
           </div>
           <div className="learn__more text-center my-10">
