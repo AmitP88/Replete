@@ -34,7 +34,7 @@ export default function Highlights() {
               src={music_headphones}
               width={100}
               height={100}
-              className="image w-auto m-auto lg:w-auto lg:h-52 xl:h-auto xl:ml-auto xl:mr-0"
+              className="image w-auto m-auto lg:w-auto lg:h-52 xl:h-auto xl:ml-auto xl:mr-0 2xl:mr-auto"
             />
           </div>
           <div className="learn__more text-center my-10">
@@ -65,7 +65,7 @@ export default function Highlights() {
               src={headphone_headphones}
               width={100}
               height={100}
-              className="image w-auto m-auto lg:w-auto lg:h-52 xl:h-auto xl:ml-auto xl:mr-0"
+              className="image w-auto m-auto lg:w-auto lg:h-52 xl:h-auto xl:ml-auto xl:mr-0 2xl:mr-auto"
             />
           </div>
           <div className="learn__more text-center my-10">
