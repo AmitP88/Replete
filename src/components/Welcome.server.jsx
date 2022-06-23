@@ -12,6 +12,7 @@ import {Suspense} from 'react';
 
 import Hero from './Hero';
 import Highlights from './Highlights';
+import TrendingProducts from './TrendingProducts';
 
 /**
  * A server component that displays the content on the homepage of the Hydrogen app
@@ -39,6 +40,7 @@ export default function Welcome() {
       <Suspense>
         <Hero />
         <Highlights />
+        <TrendingProducts />
       </Suspense>
     </div>
   );

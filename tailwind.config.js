@@ -5,6 +5,9 @@ module.exports = {
       body: ['"Open Sans"'],
     },
     extend: {
+      boxShadow: {
+        '2lg': '0px 2px 11px 0px rgba(79,76,76,0.2)',
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {
