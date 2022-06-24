@@ -4,7 +4,7 @@ export default function Banner() {
   const banner_bg_properties = {
     backgroundImage: `url(${banner_bg}), linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4))`,
     backgroundBlendMode: `overlay`,
-  }
+  };
 
   return (
     <div
