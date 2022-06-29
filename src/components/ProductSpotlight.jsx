@@ -4,7 +4,9 @@ import mac_desktop from '../images/mac_desktop.png';
 export default function ProductSpotlight() {
   return (
     <div className="ProductSpotlight bg-[#f0d5ef] flex flex-col items-center justify-center py-14">
-      <h1 className="text-black text-center text-3xl sm:text-4xl w-10/12 sm:w-full font-bold m-auto mb-5">Product Spotlight</h1>
+      <h1 className="text-black text-center text-3xl sm:text-4xl w-10/12 sm:w-full font-bold m-auto mb-5">
+        Product Spotlight
+      </h1>
       <p>(Replace the image below with embedded video)</p>
       <div className="ProductSpotlight__product">
         <Image
