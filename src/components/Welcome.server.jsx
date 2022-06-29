@@ -14,6 +14,7 @@ import Hero from './Hero';
 import Highlights from './Highlights';
 import TrendingProducts from './TrendingProducts';
 import Banner from './Banner';
+import OnSaleThisWeek from './OnSaleThisWeek';
 
 /**
  * A server component that displays the content on the homepage of the Hydrogen app
@@ -43,6 +44,7 @@ export default function Welcome() {
         <Highlights />
         <TrendingProducts />
         <Banner />
+        <OnSaleThisWeek />
       </Suspense>
     </div>
   );
