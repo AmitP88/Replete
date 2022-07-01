@@ -1,10 +1,13 @@
 import {useEffect, useState} from 'react';
 import {Link} from '@shopify/hydrogen/client';
+import {Image} from '@shopify/hydrogen';
 
 import CartToggle from './CartToggle.client';
 import {useCartUI} from './CartUIProvider.client';
 import Navigation from './Navigation.client';
 import MobileNavigation from './MobileNavigation.client';
+
+import Replete_title from '../images/Replete_title.png';
 
 /**
  * A client component that specifies the content of the header on the website
@@ -44,7 +47,12 @@ export default function Header({storeName}) {
               className="font-black uppercase text-3xl tracking-widest"
               to="/"
             >
-              {storeName}
+              <Image
+                src={Replete_title}
+                width={100}
+                height={100}
+                className="image"
+              />
             </Link>
             <CartToggle
               handleClick={() => {
